@@ -1,0 +1,50 @@
+---
+title: "Lab 05: Fixing merge conflicts and computing probabilities"
+subtitle: "Due: Sat, Feb 27 at 11:59pm ET"
+author: ""
+date: ""
+editor_options: 
+  chunk_output_type: console
+output:
+  pdf_document: default
+---
+
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
+                      comment = "#>", highlight = TRUE,
+                      fig.align = "center")
+```
+
+# Packages
+
+```{r load-packages}
+library(tidyverse)
+``` 
+
+# Data
+
+The data comes from a cohort study of collegiate athletes using the National 
+Collegiate Athletic Association (NCAA) Injury Surveillance System; certified athletic trainers recorded data during the 1997–2000 academic years.
+
+The objective of the study was to compare sex differences regarding the 
+incidence of concussions among collegiate athletes across three seasons in various sports.
+
+```{r load-data}
+concussion <- read_table("http://users.stat.ufl.edu/~winner/data/concussion.dat",col_names = FALSE)
+```
+
+# Exercises
+
+## Exercise 1
+
+```{r ex_1}
+```
+
+
+# References
+
+"Datasets". Users.Stat.Ufl.Edu, 2021, 
+http://users.stat.ufl.edu/~winner/datasets.html. Accessed 20 Feb 2021.
+
+T. Covassin, C.B. Swanik, M.L. Sachs (2003). "Sex Differences and the Incidence of Concussions Among Collegiate Athletes", Journal
+of Athletic Training, Vol. (38)3, pp238-244
